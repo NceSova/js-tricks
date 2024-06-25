@@ -7,6 +7,7 @@ module.exports = {
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
+    assetModuleFilename: "src/assets/images/[name].[ext]",
   },
   plugins: [
     new HtmlWebpackPlugin({
